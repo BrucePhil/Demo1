@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	 <servlet>  
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>send</servlet-name>
+    <servlet-class>Emailservlet.send</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>test</servlet-name>
+    <servlet-class>Registered.test</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>login</servlet-name>
+    <servlet-class>Registered.login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Loginservlet</servlet-name>
+    <servlet-class>registeredservlet.Loginservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>zhuce</servlet-name>
+    <servlet-class>registeredservlet.zhuce</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>registeredservlet.loginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>personServlet</servlet-name>
+    <servlet-class>personalservlet.personServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addsaid</servlet-name>
+    <servlet-class>com.direct.servletH.addsaid</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>profileUpdateServlet</servlet-name>
+    <servlet-class>personalservlet.profileUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addreply</servlet-name>
+    <servlet-class>com.direct.servletH.addreply</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>search_servlet</servlet-name>
+    <servlet-class>com.direct.servletH.search_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>add_titleservlet</servlet-name>
+    <servlet-class>com.direct.servletH.add_titleservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addhfwz</servlet-name>
+    <servlet-class>com.direct.servletH.addhfwz</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>add_typeservlet</servlet-name>
+    <servlet-class>com.direct.servletH.add_typeservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SignoutSessionServlet</servlet-name>
+    <servlet-class>personalservlet.SignoutSessionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>img</servlet-name>
+    <servlet-class>com.direct.servletH.img</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>del_titleservlet</servlet-name>
+    <servlet-class>com.direct.servletH.del_titleservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>del_titleservlet1</servlet-name>
+    <servlet-class>com.direct.servletH.del_titleservlet1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>del_shuoinfo</servlet-name>
+    <servlet-class>com.direct.servletH.del_shuoinfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addplsaid</servlet-name>
+    <servlet-class>com.direct.servletH.addplsaid</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LockScreenLoginServlet</servlet-name>
+    <servlet-class>personalservlet.LockScreenLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HeadPortrait_imgServlet</servlet-name>
+    <servlet-class>personalservlet.HeadPortrait_imgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addplsaid1</servlet-name>
+    <servlet-class>com.direct.servletH.addplsaid1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>add_releave</servlet-name>
+    <servlet-class>com.direct.servletH.add_releave</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>add_leave</servlet-name>
+    <servlet-class>com.direct.servletH.add_leave</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>upload_servlet</servlet-name>
+    <servlet-class>com.direct.servletH.upload_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addsaids</servlet-name>
+    <servlet-class>com.direct.servletH.addsaids</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>del_shuoinfo1</servlet-name>
+    <servlet-class>com.direct.servletH.del_shuoinfo1</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>send</servlet-name>
+    <url-pattern>/servlet/send</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>test</servlet-name>
+    <url-pattern>/servlet/test</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>login</servlet-name>
+    <url-pattern>/servlet/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Loginservlet</servlet-name>
+    <url-pattern>/servlet/Loginservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>zhuce</servlet-name>
+    <url-pattern>/servlet/zhuce</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/servlet/loginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>personServlet</servlet-name>
+    <url-pattern>/servlet/personServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addsaid</servlet-name>
+    <url-pattern>/servlet/addsaid</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>profileUpdateServlet</servlet-name>
+    <url-pattern>/servlet/profileUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addreply</servlet-name>
+    <url-pattern>/servlet/addreply</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>search_servlet</servlet-name>
+    <url-pattern>/servlet/search_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>add_titleservlet</servlet-name>
+    <url-pattern>/servlet/add_titleservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addhfwz</servlet-name>
+    <url-pattern>/servlet/addhfwz</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>add_typeservlet</servlet-name>
+    <url-pattern>/servlet/add_typeservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SignoutSessionServlet</servlet-name>
+    <url-pattern>/servlet/SignoutSessionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>img</servlet-name>
+    <url-pattern>/servlet/img</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>del_titleservlet</servlet-name>
+    <url-pattern>/servlet/del_titleservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>del_titleservlet1</servlet-name>
+    <url-pattern>/servlet/del_titleservlet1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>del_shuoinfo</servlet-name>
+    <url-pattern>/servlet/del_shuoinfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addplsaid</servlet-name>
+    <url-pattern>/servlet/addplsaid</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LockScreenLoginServlet</servlet-name>
+    <url-pattern>/servlet/LockScreenLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HeadPortrait_imgServlet</servlet-name>
+    <url-pattern>/servlet/HeadPortrait_imgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addplsaid1</servlet-name>
+    <url-pattern>/servlet/addplsaid1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>add_releave</servlet-name>
+    <url-pattern>/servlet/add_releave</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>add_leave</servlet-name>
+    <url-pattern>/servlet/add_leave</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>upload_servlet</servlet-name>
+    <url-pattern>/servlet/upload_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addsaids</servlet-name>
+    <url-pattern>/servlet/addsaids</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>del_shuoinfo1</servlet-name>
+    <url-pattern>/servlet/del_shuoinfo1</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+
+    <error-page>
+       <error-code>404</error-code>
+       <location>/error.jsp</location>
+  </error-page>
+      <error-page>
+       <error-code>500</error-code>
+       <location>/error500.jsp</location>
+  </error-page>
+
+</web-app>
